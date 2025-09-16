@@ -126,7 +126,7 @@ jobs:
         # Optional package source for which to set up authentication. Will consult any existing NuGet.config in the root of the repo and provide a temporary NuGet.config using the NUGET_AUTH_TOKEN environment variable as a ClearTextPassword
         source-url: https://github.com/tangkent3/Godmode # optional
         #  Optional OWNER for using packages from GitHub Package Registry organizations/users other than the current repository's owner. Only used if a GPR URL is also provided in source-url
-        owner: # optional
+        owner: tangkent3 # optional
         # Optional NuGet.config location, if your NuGet.config isn't located in the root of the repo.
         config-file: # optional
         # Optional input to enable caching of the NuGet global-packages folder
