@@ -13,7 +13,7 @@ namespace GodMode
         private static System.Timers.Timer? update;
 
         public override string Name => "GodMode";
-        public override string Author => "一维";
+        public override string Author => "tangkent3";
         public override string Description => "GodMode For players";
         public override Version Version => new Version(1, 6, 2, 0);
 
